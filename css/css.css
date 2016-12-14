@@ -6,18 +6,35 @@ main{
 margin:auto;
 text-align:center;
 display:table;
+
 }
+
+#tabla{
+display:table-row
+}
+
 #indx{
+width:20%;
+text-align:end;
+position:fixed;
+margin-top:50px;
+}
+#leftTabla{
+width:20%;
 display:table-cell;
 }
 #who{
+}
+#rightTabla{
+width:20%;
 display:table-cell;
-
+border-left:solid orange 3px;
 margin:10px;
 }
-.imagen img{width:200px;
-	height:200px;
+.imagen img{width:100%;
+	height:100%;
 	margin:5px;
+	border:10px solid white;
 	opacity:0.6;
 	border-bottom-left-radius:50%;
 	border-bottom-right-radius:50%;
@@ -25,16 +42,16 @@ margin:10px;
 	border-top-right-radius:50%;
 }
 .imagen img:hover{
-	width:190px;
-	height:190px;
 	border:10px solid gray;
 	opacity:1;
 	
 }
 #contenedor{
+}
+#centerTabla{
+	width:60%;
 	display:table-cell;
 	padding:40px;
-	width:800px;
 	height:auto;
 	text-align:justify;
 }
